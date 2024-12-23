@@ -1,0 +1,301 @@
+{
+    "edgesHeader": {
+        "type": "header",
+        "description": "Edges"
+    },
+    "Left": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Use left edge",
+        "value": true
+    },
+    "LeftUp": {
+        "type": "combobox",
+        "default": "Left",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Left",
+        "indent": true,
+        "value": "Left"
+    },
+    "LeftDown": {
+        "type": "combobox",
+        "default": "Right",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Left",
+        "indent": true,
+        "value": "Right"
+    },
+    "Right": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Use right edge",
+        "value": false
+    },
+    "RightUp": {
+        "type": "combobox",
+        "default": "Left",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Right",
+        "indent": true,
+        "value": "Left"
+    },
+    "RightDown": {
+        "type": "combobox",
+        "default": "Right",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Right",
+        "indent": true,
+        "value": "Right"
+    },
+    "Top": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use top edge",
+        "value": true
+    },
+    "TopUp": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Top",
+        "indent": true,
+        "value": "Left"
+    },
+    "TopDown": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Top",
+        "indent": true,
+        "value": "Right"
+    },
+    "Bottom": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use bottom edge",
+        "value": false
+    },
+    "BottomUp": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Bottom",
+        "indent": true,
+        "value": "None"
+    },
+    "BottomDown": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "Bottom",
+        "indent": true,
+        "value": "None"
+    },
+    "edgesSeparator": {
+        "type": "separator"
+    },
+    "cornersHeader": {
+        "type": "header",
+        "default": false,
+        "description": "Corner",
+        "value": false
+    },
+    "TopLeft": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use top left corner",
+        "value": true
+    },
+    "TopLeftUp": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "TopLeft",
+        "indent": true,
+        "value": "Left"
+    },
+    "TopLeftDown": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "TopLeft",
+        "indent": true,
+        "value": "Right"
+    },
+    "TopRight": {
+        "type": "checkbox",
+        "default": false,
+        "description": "Use top right corner",
+        "value": true
+    },
+    "TopRightUp": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "TopRight",
+        "indent": true,
+        "value": "Left"
+    },
+    "TopRightDown": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "TopRight",
+        "indent": true,
+        "value": "Right"
+    },
+    "BottomLeft": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Use bottom left corner",
+        "value": true
+    },
+    "BottomLeftUp": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "BottomLeft",
+        "indent": true,
+        "value": "Left"
+    },
+    "BottomLeftDown": {
+        "type": "combobox",
+        "default": "Expo",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "BottomLeft",
+        "indent": true,
+        "value": "Right"
+    },
+    "BottomRight": {
+        "type": "checkbox",
+        "default": true,
+        "description": "Use bottom right corner",
+        "value": false
+    },
+    "BottomRightUp": {
+        "type": "combobox",
+        "default": "None",
+        "description": " \u2014 Scroll up: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "BottomRight",
+        "indent": true,
+        "value": "None"
+    },
+    "BottomRightDown": {
+        "type": "combobox",
+        "default": "Expo",
+        "description": " \u2014 Scroll down: ",
+        "options": {
+            "None": "None",
+            "Switch left": "Left",
+            "Switch right": "Right",
+            "Show expo": "Expo"
+        },
+        "dependency": "BottomRight",
+        "indent": true,
+        "value": "Expo"
+    },
+    "cornersSeparator": {
+        "type": "separator"
+    },
+    "cornerSize": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "units": "pixels",
+        "description": "Corners areas size: ",
+        "value": 10
+    },
+    "__md5__": "8886c4d14a15431887107b3c97cc75a6"
+}

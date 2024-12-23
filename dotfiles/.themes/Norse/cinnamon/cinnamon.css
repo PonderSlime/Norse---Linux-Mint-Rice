@@ -392,7 +392,10 @@ StScrollBar {
 .panel-top, .panel-bottom {
   margin-left: 140px;
   margin-right: 140px;
-  padding-inline: 200px;
+}
+.panel-left, .panel-right {
+  margin-top: 220px;
+  margin-bottom: 220px;
 }
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
@@ -431,7 +434,7 @@ StScrollBar {
   .window-caption#selected {
     background-color: #8fbcbb;
     color: #2e3440;
-    border: 1px solid #8fbcbb;
+    border: 1px solid #bc9c8f;
     spacing: 25px; }
 
 .expo-workspaces-name-entry,
@@ -514,7 +517,7 @@ StScrollBar {
 
 .about-content {
   width: 550px;
-  height: 250px;
+  height: 450px;
   spacing: 8px;
   padding-bottom: 10px; }
 .about-title {
@@ -531,8 +534,7 @@ StScrollBar {
   border-radius: 2px;
   background-color: #3b4252;
   padding: 4px;
-  padding-right: 0;
-  border-radius: 0; }
+  padding-right: 0; }
   .about-scrollBox-innerBox {
     padding: 1.2em;
     spacing: 1.2em; }
