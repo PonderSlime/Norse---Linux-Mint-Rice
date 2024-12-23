@@ -341,10 +341,7 @@ StScrollBar {
   font-weight: 700;
   background-color: #2e3440;
   color: #d8dee9;
-  border-radius: 17px;
-  margin-left: 140px;
-  margin-right: 140px;
-  padding-inline: 200px; }
+  border-radius: 17px; }
   #panel:highlight {
     border-image: none;
     background-color: rgba(252, 65, 56, 0.5);
@@ -392,6 +389,11 @@ StScrollBar {
   color: #d8dee9;
   font-size: 1em;
   padding: 0px; }
+.panel-top, .panel-bottom {
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-inline: 200px;
+}
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
   .panel-dummy:entered {
