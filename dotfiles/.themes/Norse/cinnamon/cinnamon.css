@@ -339,7 +339,7 @@ StScrollBar {
   height: 28px;
   width: 32px;
   font-weight: 700;
-  background-color: #2e3440;
+  background-color: rgba(46, 52, 64, .75);
   color: #d8dee9;
   border-radius: 17px; }
   #panel:highlight {
@@ -390,6 +390,7 @@ StScrollBar {
   font-size: 1em;
   padding: 0px; }
 .panel-top, .panel-bottom {
+  
   margin-left: 140px;
   margin-right: 140px;
 }
